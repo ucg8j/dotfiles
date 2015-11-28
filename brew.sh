@@ -12,10 +12,6 @@ brew upgrade
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
 
-# Install some other useful utilities like `sponge`.
-brew install moreutils
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
-brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 # Install Bash 4.
@@ -34,72 +30,59 @@ fi;
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
-# Install RingoJS and Narwhal.
-# Note that the order in which these are installed is important;
-# see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
-
-# Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+# Install more recent versions of some OS X tools.
+brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php56 --with-gmp
 
-# Install font tools.
-brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
-
-# Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install netpbm
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
-brew install xz
-
 # Install other useful binaries.
 brew install ack
 brew install dark-mode
-#brew install exiv2
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
-brew install lua
-brew install lynx
-brew install p7zip
-brew install pigz
-brew install pv
-brew install rename
-brew install rhino
-brew install speedtest_cli
-brew install ssh-copy-id
-brew install testssl
-brew install tree
-brew install vbindiff
-brew install webkit2png
-brew install zopfli
+
+#LS - my additional installs
+brew install atk
+brew install cairo
+brew install cloog
+brew install faac
+brew install ffmpeg
+brew install fontconfig
+brew install freetype
+brew install gcc
+brew install gdk-pixbuf
+brew install gettext
+brew install gfortran
+brew install ghc
+brew install glib
+brew install gmp
+brew install gobject-introspection
+brew install gtk+
+brew install harfbuzz
+brew install icu4c
+brew install imagemagick
+brew install isl
+brew install jpeg
+brew install lame
+brew install libffi
+brew install libmpc
+brew install libpng
+brew install libtiff
+brew install libtool
+brew install mpfr
+brew install mplayer
+brew install openssl
+brew install pango
+brew install pixman
+brew install pkg-config
+brew install r
+brew install readline
+brew install wget
+brew install x264
+brew install xvid
+brew install xz
 
 # Remove outdated versions from the cellar.
 brew cleanup
