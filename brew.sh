@@ -85,5 +85,22 @@ brew install x264
 brew install xvid
 brew install xz
 
+#installing r
+brew tap homebrew/science
+brew install Caskroom/cask/xquartz
+brew install r
+
+# installing apps
+brew cask install --appdir="~/Applications" dropbox
+brew cask install --appdir="~/Applications" google-chrome
+brew cask install --appdir="~/Applications" vlc
+brew cask install --appdir="~/Applications" iterm2
+brew cask install --appdir="/Applications" github
+brew cask install --appdir="/Applications" sublime-text
+brew cask install --appdir="/Applications" google-drive
+brew cask install --appdir="/Applications" skype
+brew cask install --appdir="/Applications" mendeley-desktop
+
+
 # Remove outdated versions from the cellar.
 brew cleanup
