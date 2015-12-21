@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Install command-line tools using Homebrew.
+#ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -54,7 +55,7 @@ brew install freetype
 brew install gcc
 brew install gdk-pixbuf
 brew install gettext
-brew install gfortran
+#brew install gfortran	#deprecated by gcc
 brew install ghc
 brew install glib
 brew install gmp
@@ -77,7 +78,6 @@ brew install openssl
 brew install pango
 brew install pixman
 brew install pkg-config
-brew install r
 brew install readline
 brew install wget
 brew install x264
@@ -94,12 +94,19 @@ brew cask install --appdir="~/Applications" dropbox
 brew cask install --appdir="~/Applications" google-chrome
 brew cask install --appdir="~/Applications" vlc
 brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="/Applications" github
-brew cask install --appdir="/Applications" sublime-text
-brew cask install --appdir="/Applications" google-drive
-brew cask install --appdir="/Applications" skype
-brew cask install --appdir="/Applications" mendeley-desktop
+brew cask install --appdir="~/Applications" github
+brew cask install --appdir="~/Applications" sublime-text
+brew cask install --appdir="~/Applications" google-drive
+brew cask install --appdir="~/Applications" skype
+brew cask install --appdir="~/Applications" mendeley-desktop
+brew cask install --appdir="~/Applications" rstudio
 
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+#create path file (read by .bash_profile) saves interfering w. /etc/path
+echo "usr/local/sbin" >> .path
+
+#turn off boot noise
+nvram SystemAudioVolume=%80
