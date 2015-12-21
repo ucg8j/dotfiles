@@ -101,7 +101,7 @@ brew cask install --appdir="~/Applications" google-drive
 brew cask install --appdir="~/Applications" skype
 brew cask install --appdir="~/Applications" mendeley-desktop
 brew cask install --appdir="~/Applications" rstudio
-
+brew cask install --appdir="~/Applications" spectacle
 
 # Remove outdated versions from the cellar.
 brew cleanup
