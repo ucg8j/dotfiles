@@ -45,35 +45,35 @@ brew install git
 brew install git-lfs
 
 #LS - my additional installs
-brew install atk
-brew install cairo
-brew install cloog
-brew install faac
-brew install ffmpeg
-brew install fontconfig
-brew install freetype
-brew install gcc
-brew install gdk-pixbuf
-brew install gettext
+brew install atk				
+brew install cairo			
+brew install cloog			
+brew install faac			
+brew install ffmpeg			
+brew install fontconfig		
+brew install freetype		
+brew install gcc				
+brew install gdk-pixbuf		
+brew install gettext			
 #brew install gfortran	#deprecated by gcc
-brew install ghc
-brew install glib
-brew install gmp
-brew install gobject-introspection
-brew install gtk+
-brew install harfbuzz
-brew install icu4c
-brew install imagemagick
-brew install isl
-brew install jpeg
-brew install lame
-brew install libffi
-brew install libmpc
-brew install libpng
-brew install libtiff
-brew install libtool
-brew install mpfr
-brew install mplayer
+brew install ghc						
+brew install glib					
+brew install gmp						
+brew install gobject-introspection	
+brew install gtk+					
+brew install harfbuzz				
+brew install icu4c					
+brew install imagemagick				
+brew install isl						
+brew install jpeg			
+brew install lame			
+brew install libffi			
+brew install libmpc			
+brew install libpng			
+brew install libtiff			
+brew install libtool			
+brew install mpfr			
+brew install mplayer			
 brew install openssl
 brew install pango
 brew install pixman
@@ -83,6 +83,7 @@ brew install wget
 brew install x264
 brew install xvid
 brew install xz
+brew install tree
 
 #installing r
 brew tap homebrew/science
@@ -100,7 +101,8 @@ brew cask install --appdir="~/Applications" google-drive
 brew cask install --appdir="~/Applications" skype
 brew cask install --appdir="~/Applications" mendeley-desktop
 brew cask install --appdir="~/Applications" rstudio
-brew cask install --appdir="~/Applications" spectacle
+brew cask install --appdir="~/Applications" teamviewer
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
