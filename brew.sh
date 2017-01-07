@@ -102,7 +102,10 @@ brew cask install --appdir="~/Applications" skype
 brew cask install --appdir="~/Applications" mendeley-desktop
 brew cask install --appdir="~/Applications" rstudio
 brew cask install --appdir="~/Applications" teamviewer
-
+brew cask install --appdir="~/Applications" flux
+brew cask install --appdir="~/Applications" rodeo
+brew cask install --appdir="~/Applications" google-photos-backup
+brew cask install --appdir="~/Applications" sourcetree
 
 # Remove outdated versions from the cellar.
 brew cleanup
