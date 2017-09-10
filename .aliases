@@ -12,11 +12,13 @@ alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
+alias gd="cd ~/Google\ Drive"
 alias g="git"
 alias h="history"
 alias j="jobs"
 alias cpwd="pwd | tr -d '\n' | pbcopy"
 alias R="R --silent"
+alias rstudio="open -a Rstudio"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
