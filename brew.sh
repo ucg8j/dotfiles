@@ -119,6 +119,10 @@ brew cask install --appdir="~/Applications" rodeo
 brew cask install --appdir="~/Applications" google-photos-backup
 brew cask install --appdir="~/Applications" sourcetree
 brew cask install --appdir="~/Applications" spotify 
+brew cask install --appdir="~/Applications" alfred
+brew cask install --appdir="~/Applications" atom 
+brew cask install --appdir="~/Applications" microsoft-teams
+ 
 
 # Fix git commit issue
 git config --global --add commit.gpgsign false
