@@ -122,6 +122,7 @@ brew cask install --appdir="~/Applications" spotify
 brew cask install --appdir="~/Applications" alfred
 brew cask install --appdir="~/Applications" atom 
 brew cask install --appdir="~/Applications" microsoft-teams
+brew cask install --appdir="~/Applications" spectacle-
  
 
 # Fix git commit issue
