@@ -80,6 +80,7 @@ brew install libtool
 brew install mpfr			
 brew install mplayer			
 brew install openssl
+brew install pandoc 
 brew install pango
 brew install pixman
 brew install pkg-config
@@ -94,6 +95,12 @@ brew install tree
 brew tap homebrew/science
 brew install Caskroom/cask/xquartz
 brew install r
+
+# Installing python
+brew install python3	
+pip3 install virtualenv virtualenvwrapper
+pip3 install jupyter
+
 
 # installing apps
 brew cask install --appdir="~/Applications" dropbox
