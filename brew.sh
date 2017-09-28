@@ -110,6 +110,7 @@ brew cask install --appdir="~/Applications" flux
 brew cask install --appdir="~/Applications" rodeo
 brew cask install --appdir="~/Applications" google-photos-backup
 brew cask install --appdir="~/Applications" sourcetree
+brew cask install --appdir="~/Applications" spotify 
 
 # Fix git commit issue
 git config --global --add commit.gpgsign false
