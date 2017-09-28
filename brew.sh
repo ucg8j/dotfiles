@@ -111,6 +111,9 @@ brew cask install --appdir="~/Applications" rodeo
 brew cask install --appdir="~/Applications" google-photos-backup
 brew cask install --appdir="~/Applications" sourcetree
 
+# Fix git commit issue
+git config --global --add commit.gpgsign false
+
 # Remove outdated versions from the cellar.
 brew cleanup
 
