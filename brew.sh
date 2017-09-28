@@ -98,6 +98,7 @@ brew install r
 
 # Installing python
 brew install python3	
+brew install python	
 pip3 install virtualenv virtualenvwrapper
 pip3 install jupyter
 
