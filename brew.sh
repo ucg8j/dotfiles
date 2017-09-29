@@ -136,12 +136,14 @@ brew cask install --appdir="~/Applications" flux
 brew cask install --appdir="~/Applications" rodeo
 brew cask install --appdir="~/Applications" google-photos-backup
 brew cask install --appdir="~/Applications" sourcetree
-brew cask install --appdir="~/Applications" spotify 
+brew cask install --appdir="~/Applications" spotify
 brew cask install --appdir="~/Applications" alfred
-brew cask install --appdir="~/Applications" atom 
+brew cask install --appdir="~/Applications" atom
 brew cask install --appdir="~/Applications" microsoft-teams
-brew cask install --appdir="~/Applications" spectacle-
-brew cask install --appdir="~/Applications" virtualbox-
+brew cask install --appdir="~/Applications" spectacle
+brew cask install --appdir="~/Applications" virtualbox
+brew cask install --appdir="~/Applications" vagrant
+brew cask install --appdir="~/Applications" vagrant-manager
 
 # Install java
 brew cask install java 
