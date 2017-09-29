@@ -91,6 +91,9 @@ brew install xvid
 brew install xz
 brew install tree
 
+# install node
+brew install node
+
 #installing r
 brew tap homebrew/science
 brew install Caskroom/cask/xquartz
@@ -108,6 +111,11 @@ pip2 install jupyter
 pip2 install numpy
 pip2 install pandas 
 pip2 install matplotlib 
+
+# install selected data science @ the cmd tools
+brew install cowsay
+pip3 install csvkit
+npm install -g xml2json-command
 
 # installing docker
 brew install docker
