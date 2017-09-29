@@ -122,6 +122,11 @@ brew cask install --appdir="~/Applications" google-chrome
 brew cask install --appdir="~/Applications" vlc
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" sublime-text
+# install prettify json sublime add on
+(
+	cd /Users/luke.singham/Library/Application\ Support/Sublime\ Text\ 3/Packages
+	git clone https://github.com/dzhibas/SublimePrettyJson.git
+)
 brew cask install --appdir="~/Applications" google-backup-and-sync 
 brew cask install --appdir="~/Applications" skype
 brew cask install --appdir="~/Applications" mendeley-desktop
