@@ -102,6 +102,10 @@ brew install python
 pip3 install virtualenv virtualenvwrapper
 pip3 install jupyter
 
+# installing docker
+brew install docker
+brew install boot2docker
+brew install docker-compose docker-machine
 
 # installing apps
 brew cask install --appdir="~/Applications" dropbox
@@ -123,6 +127,7 @@ brew cask install --appdir="~/Applications" alfred
 brew cask install --appdir="~/Applications" atom 
 brew cask install --appdir="~/Applications" microsoft-teams
 brew cask install --appdir="~/Applications" spectacle-
+brew cask install --appdir="~/Applications" virtualbox-
 
 # Install java
 brew cask install java 

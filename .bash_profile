@@ -46,3 +46,9 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# Docker related...
+# Fix error 'Are you trying to connect to a TLS-enabled daemon without TLS?"
+$(boot2docker shellinit 2> /dev/null);
+# Map boot2docker VM to the right port
+export DOCKER_HOST=tcp://192.168.59.103:2376;
