@@ -123,7 +123,9 @@ brew cask install --appdir="~/Applications" alfred
 brew cask install --appdir="~/Applications" atom 
 brew cask install --appdir="~/Applications" microsoft-teams
 brew cask install --appdir="~/Applications" spectacle-
- 
+
+# Install java
+brew cask install java 
 
 # Fix git commit issue
 git config --global --add commit.gpgsign false
