@@ -106,6 +106,8 @@ pip3 install jupyter
 brew install docker
 brew install boot2docker
 brew install docker-compose docker-machine
+# associate VM ip that runs docker with dockerhost
+echo $(boot2docker ip) dockerhost | sudo tee -a /etc/hosts
 
 # installing apps
 brew cask install --appdir="~/Applications" dropbox
