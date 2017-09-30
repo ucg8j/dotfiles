@@ -90,6 +90,7 @@ brew install x264
 brew install xvid
 brew install xz
 brew install tree
+brew install maven
 
 # install node
 brew install node
