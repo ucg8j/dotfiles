@@ -154,6 +154,7 @@ brew cask install --appdir="~/Applications" spectacle
 brew cask install --appdir="~/Applications" virtualbox
 brew cask install --appdir="~/Applications" vagrant
 brew cask install --appdir="~/Applications" vagrant-manager
+brew cask install --appdir="~/Applications" pycharm-ce 
 
 # Install java
 brew cask install java 
