@@ -127,6 +127,7 @@ brew install docker-compose docker-machine
 echo $(boot2docker ip) dockerhost | sudo tee -a /etc/hosts
 
 # installing apps
+brew cask install --appdir="~/Applications" torguard 
 brew cask install --appdir="~/Applications" dropbox
 brew cask install --appdir="~/Applications" google-chrome
 brew cask install --appdir="~/Applications" vlc
