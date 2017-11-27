@@ -118,6 +118,7 @@ pip2 install matplotlib
 brew install cowsay
 pip3 install csvkit
 npm install -g xml2json-command
+npm install stacks-cli -g
 
 # installing docker
 brew install docker
