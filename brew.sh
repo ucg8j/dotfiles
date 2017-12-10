@@ -101,8 +101,8 @@ brew install Caskroom/cask/xquartz
 brew install r
 
 # Installing python plus minimal package install
-brew install python3	
-brew install python	
+brew install python3
+brew install python
 pip3 install virtualenv virtualenvwrapper
 pip3 install jupyter
 pip3 install numpy
@@ -111,8 +111,9 @@ pip3 install matplotlib
 pip3 install speedtest-cli
 pip3 install jupyter
 pip3 install numpy
-pip3 install pandas 
+pip3 install pandas
 pip3 install matplotlib 
+pip3 install grip
 
 # install selected data science @ the cmd tools
 brew install cowsay
