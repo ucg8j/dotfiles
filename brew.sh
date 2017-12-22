@@ -95,6 +95,10 @@ brew install maven
 # install node
 brew install node
 
+# Tools for live-reloading
+brew install ag 
+brew install entr
+
 #installing r
 brew tap homebrew/science
 brew install Caskroom/cask/xquartz
