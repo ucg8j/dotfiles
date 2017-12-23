@@ -164,8 +164,11 @@ brew cask install --appdir="~/Applications" vagrant-manager
 brew cask install --appdir="~/Applications" pycharm-ce 
 brew cask install --appdir="~/Applications" licecap 
 
+# Install LaTeX
+brew cask install mactex
+
 # Install java
-brew cask install java 
+brew cask install java
 
 # Fix git commit issue
 git config --global --add commit.gpgsign false
