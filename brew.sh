@@ -91,6 +91,7 @@ brew install xvid
 brew install xz
 brew install tree
 brew install maven
+brew install tldr 
 
 # install node
 brew install node
