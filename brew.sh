@@ -164,7 +164,7 @@ brew cask install --appdir="~/Applications" virtualbox
 brew cask install --appdir="~/Applications" vagrant
 brew cask install --appdir="~/Applications" vagrant-manager
 brew cask install --appdir="~/Applications" pycharm-ce 
-brew cask install --appdir="~/Applications" licecap 
+brew cask install --appdir="~/Applications" licecap # make gifs
 brew cask install --appdir="~/Applications" postico 
 
 # Install LaTeX
