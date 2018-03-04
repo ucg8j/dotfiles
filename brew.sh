@@ -92,6 +92,7 @@ brew install xz
 brew install tree
 brew install maven
 brew install tldr 
+brew install chromedriver 
 
 # install node
 brew install node
