@@ -142,6 +142,7 @@ brew cask install --appdir="~/Applications" google-chrome
 brew cask install --appdir="~/Applications" vlc
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" sublime-text
+brew cask install --appdir="~/Applications" intellij-idea-ce-
 # install prettify json sublime add on
 (
 	cd /Users/luke.singham/Library/Application\ Support/Sublime\ Text\ 3/Packages
