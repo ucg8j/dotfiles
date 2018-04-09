@@ -51,36 +51,36 @@ brew install git
 brew install git-lfs
 
 #LS - my additional installs
-brew install atk				
-brew install cairo			
-brew install cloog			
-brew install faac			
-brew install ffmpeg			
-brew install fontconfig		
-brew install freetype		
-brew install gcc				
-brew install gdk-pixbuf		
-brew install gettext			
-brew install ghc						
-brew install glib					
-brew install gmp						
-brew install gobject-introspection	
-brew install gtk+					
-brew install harfbuzz				
-brew install icu4c					
-brew install imagemagick				
-brew install isl						
-brew install jpeg			
-brew install lame			
-brew install libffi			
-brew install libmpc			
-brew install libpng			
-brew install libtiff			
-brew install libtool			
-brew install mpfr			
-brew install mplayer			
+brew install atk
+brew install cairo
+brew install cloog
+brew install faac
+brew install ffmpeg
+brew install fontconfig
+brew install freetype
+brew install gcc
+brew install gdk-pixbuf
+brew install gettext
+brew install ghc
+brew install glib
+brew install gmp
+brew install gobject-introspection
+brew install gtk+
+brew install harfbuzz
+brew install icu4c
+brew install imagemagick
+brew install isl
+brew install jpeg
+brew install lame
+brew install libffi
+brew install libmpc
+brew install libpng
+brew install libtiff
+brew install libtool
+brew install mpfr
+brew install mplayer
 brew install openssl
-brew install pandoc 
+brew install pandoc
 brew install pango
 brew install pixman
 brew install pkg-config
@@ -91,14 +91,14 @@ brew install xvid
 brew install xz
 brew install tree
 brew install maven
-brew install tldr 
-brew install chromedriver 
+brew install tldr
+brew install chromedriver
 
 # install node
 brew install node
 
 # Tools for live-reloading
-brew install ag 
+brew install ag
 brew install entr
 
 #installing r
@@ -112,21 +112,22 @@ brew install python
 pip3 install virtualenv virtualenvwrapper
 pip3 install jupyter
 pip3 install numpy
-pip3 install pandas 
-pip3 install matplotlib 
+pip3 install pandas
+pip3 install matplotlib
 pip3 install speedtest-cli
 pip3 install jupyter
 pip3 install numpy
 pip3 install pandas
-pip3 install matplotlib 
+pip3 install matplotlib
 pip3 install grip
 
 # install selected data science @ the cmd tools
 brew install cowsay
 pip3 install csvkit
+pip3 install jupyterlab # data science ide
 npm install -g xml2json-command
 npm install stacks-cli -g
-npm install -g doctoc # inserts toc into .md file 
+npm install -g doctoc # inserts toc into .md file
 
 # installing docker
 brew install docker
@@ -136,7 +137,7 @@ brew install docker-compose docker-machine
 echo $(boot2docker ip) dockerhost | sudo tee -a /etc/hosts
 
 # installing apps
-brew cask install --appdir="~/Applications" torguard 
+brew cask install --appdir="~/Applications" torguard
 brew cask install --appdir="~/Applications" dropbox
 brew cask install --appdir="~/Applications" google-chrome
 brew cask install --appdir="~/Applications" vlc
@@ -148,7 +149,7 @@ brew cask install --appdir="~/Applications" intellij-idea-ce-
 	cd /Users/luke.singham/Library/Application\ Support/Sublime\ Text\ 3/Packages
 	git clone https://github.com/dzhibas/SublimePrettyJson.git
 )
-brew cask install --appdir="~/Applications" google-backup-and-sync 
+brew cask install --appdir="~/Applications" google-backup-and-sync
 brew cask install --appdir="~/Applications" skype
 brew cask install --appdir="~/Applications" mendeley-desktop
 brew cask install --appdir="~/Applications" rstudio
@@ -163,9 +164,9 @@ brew cask install --appdir="~/Applications" spectacle
 brew cask install --appdir="~/Applications" virtualbox
 brew cask install --appdir="~/Applications" vagrant
 brew cask install --appdir="~/Applications" vagrant-manager
-brew cask install --appdir="~/Applications" pycharm-ce 
+brew cask install --appdir="~/Applications" pycharm-ce
 brew cask install --appdir="~/Applications" licecap # make gifs
-brew cask install --appdir="~/Applications" postico 
+brew cask install --appdir="~/Applications" postico
 
 # Install LaTeX
 brew cask install mactex
