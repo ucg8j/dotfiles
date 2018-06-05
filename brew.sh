@@ -166,7 +166,8 @@ brew cask install --appdir="~/Applications" vagrant
 brew cask install --appdir="~/Applications" vagrant-manager
 brew cask install --appdir="~/Applications" pycharm-ce
 brew cask install --appdir="~/Applications" licecap # make gifs
-brew cask install --appdir="~/Applications" postico
+brew cask install --appdir="~/Applications" postico # good postgres client
+brew cask install --appdir="~/Applications" signal # secure and nfp messaging
 
 # Install LaTeX
 brew cask install mactex
