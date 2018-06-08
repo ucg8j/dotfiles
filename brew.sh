@@ -173,7 +173,7 @@ brew cask install --appdir="~/Applications" signal # secure and nfp messaging
 brew cask install mactex
 
 # Install java
-brew cask install java
+# brew cask install java # sometimes better to specify version
 
 # Fix git commit issue
 git config --global --add commit.gpgsign false
