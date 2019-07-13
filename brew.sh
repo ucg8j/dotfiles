@@ -137,18 +137,11 @@ brew install docker-compose docker-machine
 echo $(boot2docker ip) dockerhost | sudo tee -a /etc/hosts
 
 # installing apps
-brew cask install --appdir="~/Applications" torguard
 brew cask install --appdir="~/Applications" dropbox
 brew cask install --appdir="~/Applications" google-chrome
 brew cask install --appdir="~/Applications" vlc
 brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" sublime-text
 brew cask install --appdir="~/Applications" intellij-idea-ce-
-# install prettify json sublime add on
-(
-	cd /Users/luke.singham/Library/Application\ Support/Sublime\ Text\ 3/Packages
-	git clone https://github.com/dzhibas/SublimePrettyJson.git
-)
 brew cask install --appdir="~/Applications" google-backup-and-sync
 brew cask install --appdir="~/Applications" skype
 brew cask install --appdir="~/Applications" mendeley-desktop
@@ -168,6 +161,8 @@ brew cask install --appdir="~/Applications" pycharm-ce
 brew cask install --appdir="~/Applications" licecap # make gifs
 brew cask install --appdir="~/Applications" postico # good postgres client
 brew cask install --appdir="~/Applications" signal # secure and nfp messaging
+brew cask install --appdir="~/Applications" snagit # gif capture
+brew cask install --appdir="~/Applications" pock # fancy mac
 
 # Install LaTeX
 brew cask install mactex
