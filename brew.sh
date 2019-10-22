@@ -163,6 +163,7 @@ brew cask install --appdir="~/Applications" postico # good postgres client
 brew cask install --appdir="~/Applications" signal # secure and nfp messaging
 brew cask install --appdir="~/Applications" snagit # gif capture
 brew cask install --appdir="~/Applications" pock # fancy mac
+brew cask install --appdir="~/Applications" sensiblesidebuttons # third party mouse 
 
 # Install LaTeX
 brew cask install mactex
