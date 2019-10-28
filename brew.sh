@@ -139,6 +139,7 @@ echo $(boot2docker ip) dockerhost | sudo tee -a /etc/hosts
 # installing apps
 brew cask install --appdir="~/Applications" dropbox
 brew cask install --appdir="~/Applications" google-chrome
+brew cask install --appdir="~/Applications" firefox 
 brew cask install --appdir="~/Applications" vlc
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" intellij-idea-ce-
