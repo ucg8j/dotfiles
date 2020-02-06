@@ -46,7 +46,6 @@ brew install homebrew/php/php56 --with-gmp
 
 # Install other useful binaries.
 brew install ack
-brew install dark-mode
 brew install git
 brew install git-lfs
 
@@ -115,10 +114,6 @@ pip3 install numpy
 pip3 install pandas
 pip3 install matplotlib
 pip3 install speedtest-cli
-pip3 install jupyter
-pip3 install numpy
-pip3 install pandas
-pip3 install matplotlib
 pip3 install grip
 
 # install selected data science @ the cmd tools
@@ -150,7 +145,7 @@ brew cask install --appdir="~/Applications" rstudio
 brew cask install --appdir="~/Applications" teamviewer
 brew cask install --appdir="~/Applications" flux
 brew cask install --appdir="~/Applications" google-photos-backup
-brew cask install --appdir="~/Applications" sourcetree
+# brew cask install --appdir="~/Applications" sourcetree
 brew cask install --appdir="~/Applications" spotify
 brew cask install --appdir="~/Applications" alfred
 brew cask install --appdir="~/Applications" atom
@@ -158,11 +153,9 @@ brew cask install --appdir="~/Applications" spectacle
 brew cask install --appdir="~/Applications" virtualbox
 brew cask install --appdir="~/Applications" vagrant
 brew cask install --appdir="~/Applications" vagrant-manager
-brew cask install --appdir="~/Applications" pycharm-ce
 brew cask install --appdir="~/Applications" licecap # make gifs
 brew cask install --appdir="~/Applications" postico # good postgres client
 brew cask install --appdir="~/Applications" signal # secure and nfp messaging
-brew cask install --appdir="~/Applications" snagit # gif capture
 brew cask install --appdir="~/Applications" pock # fancy mac
 brew cask install --appdir="~/Applications" bitwarden # password mgr
 
