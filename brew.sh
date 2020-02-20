@@ -106,7 +106,6 @@ brew install Caskroom/cask/xquartz
 brew install r
 
 # Installing python plus minimal package install
-brew install python3
 brew install python
 pip3 install virtualenv virtualenvwrapper
 pip3 install jupyter
@@ -145,7 +144,6 @@ brew cask install --appdir="~/Applications" rstudio
 brew cask install --appdir="~/Applications" teamviewer
 brew cask install --appdir="~/Applications" flux
 brew cask install --appdir="~/Applications" google-photos-backup
-# brew cask install --appdir="~/Applications" sourcetree
 brew cask install --appdir="~/Applications" spotify
 brew cask install --appdir="~/Applications" alfred
 brew cask install --appdir="~/Applications" atom
@@ -162,9 +160,6 @@ brew cask install --appdir="~/Applications" macmediakeyforwarder # spotify > itu
 
 # Install LaTeX
 brew cask install mactex
-
-# Install java
-# brew cask install java # sometimes better to specify version
 
 # Fix git commit issue
 git config --global --add commit.gpgsign false
