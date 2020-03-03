@@ -172,3 +172,6 @@ echo "usr/local/sbin" >> .path
 
 #turn off boot noise
 nvram SystemAudioVolume=%80
+
+# install oh-my-zsh
+git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
