@@ -26,6 +26,9 @@ if [ -f '/Users/lukesingham/google-cloud-sdk/completion.zsh.inc' ]; then . '/Use
 source ~/.bash_profile
 source ~/.aliases
 
+# put user python3 on path
+export PATH=${PATH}:/Users/lukesingham/Library/Python/3.7/bin
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -40,6 +43,9 @@ ZSH_THEME="random"
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 ZSH_THEME_RANDOM_CANDIDATES=( "af-magic" "amuse" "mh")
+
+# Fixes this issue https://github.com/ohmyzsh/ohmyzsh/issues/6835
+ZSH_DISABLE_COMPFIX="true"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -138,3 +144,7 @@ setopt EXTENDED_HISTORY
 setopt INC_APPEND_HISTORY SHARE_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_REDUCE_BLANKS
+
+
+
+PATH=${PATH}:
