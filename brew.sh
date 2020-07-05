@@ -155,6 +155,7 @@ brew cask install --appdir="~/Applications" vagrant-manager
 brew cask install --appdir="~/Applications" licecap # make gifs
 brew cask install --appdir="~/Applications" postico # good postgres client
 brew cask install --appdir="~/Applications" signal # secure and nfp messaging
+brew cask install --appdir="~/Applications" postman # test apis 
 brew cask install --appdir="~/Applications" pock # fancy mac
 brew cask install --appdir="~/Applications" bitwarden # password mgr
 brew cask install --appdir="~/Applications" avibrazil-rdm # crank resolutions on retina displays
