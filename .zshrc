@@ -19,6 +19,11 @@ if [ -f '/Users/lukesingham/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/luk
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/lukesingham/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/lukesingham/google-cloud-sdk/completion.zsh.inc'; fi
 
+# NVM setup
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
 ############################################################################
 # LS config
 ############################################################################
@@ -46,6 +51,9 @@ ZSH_THEME_RANDOM_CANDIDATES=( "af-magic" "amuse" "mh")
 
 # Fixes this issue https://github.com/ohmyzsh/ohmyzsh/issues/6835
 ZSH_DISABLE_COMPFIX="true"
+
+# don't check for new mail
+MAILCHECK=0
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -148,3 +156,7 @@ setopt HIST_REDUCE_BLANKS
 
 
 PATH=${PATH}:
+export PATH="/usr/local/sbin:$PATH"
+export PYENV_ROOT=/usr/local/var/pyenv
+export PATH=$PYENV_ROOT/shims:$PYENV_ROOT/bin:$PATH
+if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
