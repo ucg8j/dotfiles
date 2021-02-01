@@ -133,6 +133,7 @@ brew install docker-compose docker-machine
 echo $(boot2docker ip) dockerhost | sudo tee -a /etc/hosts
 
 # installing apps
+brew cask install --appdir="~/Applications" balance-lock #fixes bug with sound balance changing
 brew cask install --appdir="~/Applications" dropbox
 brew cask install --appdir="~/Applications" google-chrome
 brew cask install --appdir="~/Applications" firefox 
