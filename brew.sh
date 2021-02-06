@@ -133,34 +133,34 @@ brew install docker-compose docker-machine
 echo $(boot2docker ip) dockerhost | sudo tee -a /etc/hosts
 
 # installing apps
-brew cask install --appdir="~/Applications" balance-lock #fixes bug with sound balance changing
-brew cask install --appdir="~/Applications" dropbox
-brew cask install --appdir="~/Applications" google-chrome
-brew cask install --appdir="~/Applications" firefox 
-brew cask install --appdir="~/Applications" vlc
-brew cask install --appdir="~/Applications" iterm2
-brew cask install --appdir="~/Applications" intellij-idea-ce-
-brew cask install --appdir="~/Applications" google-backup-and-sync
-brew cask install --appdir="~/Applications" skype
-brew cask install --appdir="~/Applications" mendeley-desktop
-brew cask install --appdir="~/Applications" rstudio
-brew cask install --appdir="~/Applications" teamviewer
-brew cask install --appdir="~/Applications" flux
-brew cask install --appdir="~/Applications" google-photos-backup
-brew cask install --appdir="~/Applications" spotify
-brew cask install --appdir="~/Applications" alfred
-brew cask install --appdir="~/Applications" atom
-brew cask install --appdir="~/Applications" rectangle # app window snapper
-brew cask install --appdir="~/Applications" virtualbox
-brew cask install --appdir="~/Applications" vagrant
-brew cask install --appdir="~/Applications" vagrant-manager
-brew cask install --appdir="~/Applications" licecap # make gifs
-brew cask install --appdir="~/Applications" postico # good postgres client
-brew cask install --appdir="~/Applications" signal # secure and nfp messaging
-brew cask install --appdir="~/Applications" postman # test apis 
-brew cask install --appdir="~/Applications" pock # fancy mac
-brew cask install --appdir="~/Applications" bitwarden # password mgr
-brew cask install --appdir="~/Applications" avibrazil-rdm # crank resolutions on retina displays
+brew install --cask --appdir="~/Applications" balance-lock #fixes bug with sound balance changing
+brew install --cask --appdir="~/Applications" dropbox
+brew install --cask --appdir="~/Applications" google-chrome
+brew install --cask --appdir="~/Applications" firefox 
+brew install --cask --appdir="~/Applications" vlc
+brew install --cask --appdir="~/Applications" iterm2
+brew install --cask --appdir="~/Applications" intellij-idea-ce-
+brew install --cask --appdir="~/Applications" google-backup-and-sync
+brew install --cask --appdir="~/Applications" skype
+brew install --cask --appdir="~/Applications" mendeley-desktop
+brew install --cask --appdir="~/Applications" rstudio
+brew install --cask --appdir="~/Applications" teamviewer
+brew install --cask --appdir="~/Applications" flux
+brew install --cask --appdir="~/Applications" google-photos-backup
+brew install --cask --appdir="~/Applications" spotify
+brew install --cask --appdir="~/Applications" alfred
+brew install --cask --appdir="~/Applications" atom
+brew install --cask --appdir="~/Applications" rectangle # app window snapper
+brew install --cask --appdir="~/Applications" virtualbox
+brew install --cask --appdir="~/Applications" vagrant
+brew install --cask --appdir="~/Applications" vagrant-manager
+brew install --cask --appdir="~/Applications" licecap # make gifs
+brew install --cask --appdir="~/Applications" postico # good postgres client
+brew install --cask --appdir="~/Applications" signal # secure and nfp messaging
+brew install --cask --appdir="~/Applications" postman # test apis 
+brew install --cask --appdir="~/Applications" pock # fancy mac
+brew install --cask --appdir="~/Applications" bitwarden # password mgr
+brew install --cask --appdir="~/Applications" avibrazil-rdm # crank resolutions on retina displays
 
 # Install LaTeX
 brew cask install mactex
