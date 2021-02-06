@@ -162,9 +162,7 @@ brew install --cask --appdir="~/Applications" pock # fancy mac
 brew install --cask --appdir="~/Applications" bitwarden # password mgr
 brew install --cask --appdir="~/Applications" avibrazil-rdm # crank resolutions on retina displays
 brew install --cask --appdir="~/Applications" odlp/bluesnooze/bluesnooze # fix apple connecting to headphones whilst in sleep mode
-
-# Install LaTeX
-brew cask install mactex
+brew install --cask --appdir="~/Applications" mactex # Install LaTeX
 
 # Fix git commit issue
 git config --global --add commit.gpgsign false
