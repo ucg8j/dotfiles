@@ -145,7 +145,6 @@ brew install --cask --appdir="~/Applications" skype
 brew install --cask --appdir="~/Applications" mendeley-desktop
 brew install --cask --appdir="~/Applications" rstudio
 brew install --cask --appdir="~/Applications" teamviewer
-brew install --cask --appdir="~/Applications" flux
 brew install --cask --appdir="~/Applications" google-photos-backup
 brew install --cask --appdir="~/Applications" spotify
 brew install --cask --appdir="~/Applications" alfred
