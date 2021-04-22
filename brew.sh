@@ -94,6 +94,7 @@ brew install maven
 brew install tldr
 brew install chromedriver
 brew install jpegoptim 
+brew install bat # better cat 
 
 # install node
 brew install node
