@@ -7,6 +7,9 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias -- -="cd -"
 
+# mkdir and cd in one
+mkcd() { mkdir -vp "$1" && cd "$1"; }
+
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
@@ -15,13 +18,16 @@ alias p="cd ~/projects"
 alias gd="cd ~/Google\ Drive"
 alias g="git"
 alias h="history"
-alias j="jobs"
 alias cpwd="pwd | tr -d '\n' | pbcopy"
 alias r="R --silent"
 alias R="R --silent"
 alias rstudio="open -a Rstudio"
 alias Rstudio="open -a Rstudio"
-alias pycharm="open -a 'Pycharm CE.app'"
+
+# prefer neovim
+if type nvim > /dev/null 2>&1; then
+  alias vim='nvim'
+fi
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -43,9 +49,6 @@ alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
-
-# `subl` cmd shortcut
-alias subl='/Users/luke.singham/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
