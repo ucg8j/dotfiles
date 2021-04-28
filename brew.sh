@@ -95,6 +95,7 @@ brew install tldr
 brew install chromedriver
 brew install jpegoptim 
 brew install bat # better cat 
+brew install cloc # count lines of code
 
 # install node
 brew install node
