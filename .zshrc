@@ -8,6 +8,8 @@ alias monzo-eng3='sh "/Users/lukesingham/.onboarding/monzo-eng3.sh"'
 alias monzo-certs-update='sh "/Users/lukesingham/.onboarding/monzo-certs-update.sh"'
 alias monzo-configure-viscosity='sh "/Users/lukesingham/.onboarding/monzo-configure-viscosity.sh"'
  
+# Source Monzo zsh files
+[ -f $HOME/src/github.com/monzo/starter-pack/zshrc ] && source $HOME/src/github.com/monzo/starter-pack/zshrc
 ##############################################################################
 # Custom configurations below 
 ##############################################################################
@@ -31,8 +33,16 @@ export NVM_DIR="$HOME/.nvm"
 source ~/.bash_profile
 source ~/.aliases
 
+# allow list of words that zsh tries to correct
+alias bat='nocorrect bat'
+alias cloc='nocorrect cloc'
+
+## PATHs
 # put user python3 on path
 export PATH=${PATH}:/Users/lukesingham/Library/Python/3.7/bin
+
+# standard ml
+export PATH="$PATH:/usr/local/smlnj/bin"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -41,13 +51,13 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="random"
+ZSH_THEME="amuse"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
-ZSH_THEME_RANDOM_CANDIDATES=( "af-magic" "amuse" "mh")
+#ZSH_THEME_RANDOM_CANDIDATES=( "amuse" "mh")
 
 # Fixes this issue https://github.com/ohmyzsh/ohmyzsh/issues/6835
 ZSH_DISABLE_COMPFIX="true"
